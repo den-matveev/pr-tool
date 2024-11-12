@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "pr-tool"
+version = "0.0.1"
+description = ""
+authors = ["Denis Matveev <d.matveev.dev@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "4.2.16"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
